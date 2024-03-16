@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--BOOTSTRAP CSS-->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <link rel="shortcut icon" href="img/iconNofir.webp" type="image/x-icon" />
+    <!--BOOTSTRAP ICONS-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Italiana&family=Kaisei+Tokumin&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <title>Nofir Design</title>
+  </head>
+  <body>
+    <!-- NAV CONTENT-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-4 fixed-top">
+      <div class="container">
+        <a
+          class="navbar-brand d-flex justify-content-between align-items-center order-lg-0"
+          href="index.html"
+        >
+          <span class="fw-lighter ms-2 nav-title">NOFIR Design</span>
+        </a>
+
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse order-lg-1" id="navMenu">
+          <ul class="navbar-nav mx-auto text-center">
+            <li class="nav-item px-2 py-2">
+              <a class="nav-link text-uppercase text-dark" href="#header"
+                >home</a
+              >
+            </li>
+            <li class="nav-item px-2 py-2">
+              <a class="nav-link text-uppercase text-dark" href="#collection"
+                >shop</a
+              >
+            </li>
+            <li class="nav-item px-2 py-2">
+              <a class="nav-link text-uppercase text-dark" href="#special"
+                >about us</a
+              >
+            </li>
+            <li class="nav-item px-2 py-2">
+              <a class="nav-link text-uppercase text-dark" href="#blogs"
+                >contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- END OF NAV CONTENT-->
+
+    <!-- HEADER-->
+
+    <header id="header" class="vh-100 header-text">
+      <div
+        class="container h-100 d-flex align-items-center justify-content-center"
+      >
+        <div class="text-center">
+          <h2 class="text-capitalize text-white header-text">New Collection</h2>
+          <a href="products.html" class="btn mt-3 text-uppercase">Shop Now</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- END OF HEADER CONTENT-->
+
+    <!-- COLLECTION SECTION CONTENT-->
+
+    <section id="collection" class="py-5">
+      <h2 class="text-center collection-text">Explore Our</h2>
+      <h2 class="text-center collection-text-detail pb-5">News</h2>
+      <div
+        id="carouselExampleDark"
+        class="carousel carousel-dark slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="img/img5.webp" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <a href="products.html" class="btn mt-3"
+                >Explore the Aesthetic Collection</a
+              >
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="img/img3.webp" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block"></div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/img4.webp" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block"></div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="py-5">
+      <div class="container">
+        <div class="row text-white g-4">
+          <div class="col-md-6 col-lg-3 d-flex align-items-center">
+            <span class="fw-lighter ms-2 nav-title">NOFIR Design</span>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <h5 class="fw-light">Company</h5>
+            <ul class="list-unstyled">
+              <li class="my-3">
+                <a
+                  href="index.html"
+                  class="text-white text-decoration-none text-muted"
+                >
+                  Home
+                </a>
+              </li>
+              <li class="my-3">
+                <a
+                  href="products.html"
+                  class="text-white text-decoration-none text-muted"
+                >
+                  Collection
+                </a>
+              </li>
+              <li class="my-3">
+                <a href="#" class="text-white text-decoration-none text-muted">
+                  Blogs
+                </a>
+              </li>
+              <li class="my-3">
+                <a
+                  href="about.html"
+                  class="text-white text-decoration-none text-muted"
+                >
+                  About Us
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <h5 class="fw-light">Company</h5>
+            <ul class="list-unstyled">
+              <li class="my-3">
+                <p class="fw-light">Shipping Policy</p>
+              </li>
+              <li class="my-3">
+                <p class="fw-light">Return Policy</p>
+              </li>
+              <li class="my-3">
+                <p class="fw-light">Terms and Conditions</p>
+              </li>
+              <li class="my-3">
+                <p class="fw-light">Privacy Policy</p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <h5 class="fw-light mb-3">Contact Us</h5>
+            <div
+              class="d-flex justify-content-start align-items-start my-2 text-muted"
+            >
+              <span class="me-3"> <i class="bi bi-house-fill"></i> </span>
+              <span class="fw-light"> Porto, Portugal </span>
+            </div>
+            <div
+              class="d-flex justify-content-start align-items-start my-2 text-muted"
+            >
+              <span class="me-3"> <i class="bi bi-envelope-fill"></i> </span>
+              <span class="fw-light"> nofir.support@outlook.pt </span>
+            </div>
+            <div
+              class="d-flex justify-content-start align-items-start my-2 text-muted"
+            >
+              <span class="me-3"> <i class="bi bi-telephone-fill"></i> </span>
+              <span class="fw-light"> +351 910499724 </span>
+            </div>
+          </div>
+
+          <!--<div class="col-md-6 col-lg-3">
+            <h5 class="fw-light mb-3">Follow Us</h5>
+            <div>
+              <ul class="list-unstyled d-flex">
+                <li>
+                  <a
+                    href="#"
+                    class="text-white text-decoration-none text-muted fs-4 me-4"
+                  >
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-white text-decoration-none text-muted fs-4 me-4"
+                  >
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-white text-decoration-none text-muted fs-4 me-4"
+                  >
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-white text-decoration-none text-muted fs-4 me-4"
+                  >
+                    <i class="fab fa-pinterest"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </footer>
+    <!-- end of footer -->
+
+    <!-- TABLE SECTION CONTENT-->
+
+    <!--  <main class="mb-2 p-2 shadow rounded text-center">
+      <div>
+        <img src="./img/logo.jpg" alt="imagem worten" class="w-50" />
+      </div>
+      <div>
+        <p>comprem muito</p>
+      </div>
+    </main>  -->
+
+    <!--  <footer class="text pt-5 pb-4">
+      <div class="container text-center text-md-left">
+        <div class="row text-center text-md-left">
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5>Company</h5>
+            <ul class="list-unstyled">
+              <li><a href="#" class="footer-links">About Nofir Design</a></li>
+              <li><a href="#" class="footer-links">Career</a></li>
+              <li><a href="#" class="footer-links">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5>Customer Service</h5>
+            <ul class="list-unstyled">
+              <li><a href="#" class="footer-links">Shipping Policy</a></li>
+              <li><a href="#" class="footer-links">Return Policy</a></li>
+              <li><a href="#" class="footer-links">Terms and Conditions</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5>Company</h5>
+            <ul class="list-unstyled">
+              <li><a href="#" class="footer-links">About Nofir Design</a></li>
+              <li><a href="#" class="footer-links">Career</a></li>
+              <li><a href="#" class="footer-links">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5>Contact</h5>
+            <p><i class="bi bi-house-fill"></i> Porto, Portugal.</p>
+            <p><i class="bi bi-telephone-fill"></i> 910 499 724</p>
+            <p><i class="bi bi-envelope-fill"></i> nofirdesign@outlook.pt</p>
+            <p>
+              <a href="#"><i class="bi bi-instagram"></i></a> @nofirdesign
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>-->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

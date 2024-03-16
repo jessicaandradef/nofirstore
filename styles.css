@@ -1,0 +1,98 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+:root {
+  --primary-color: #f5f3eb;
+  --secondary-color: #000000;
+  --tertiary-color: #d87436;
+  --fourth-color: #a98f7c; /*ddc9b8*/
+
+  --primary-font: "Italiana", sans-serif;
+  --secondary-font: "Poppins", sans-serif;
+  --tertiary-font: "Nunito Sans", sans-serif;
+  --fourth-font: "Kaisei Tokumin", serif;
+}
+
+body {
+  font-family: var(--tertiary-font);
+  background-color: var(--primary-color);
+}
+
+.nav-title {
+  font-family: var(--primary-font);
+  font-size: 35px;
+}
+
+.navbar {
+  box-shadow: 0 3px 9px 3px rgbd(0, 0, 0, 0.1);
+}
+
+.nav-link:hover {
+  color: var(--tertiary-color) !important;
+}
+
+.nav-item {
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
+}
+/*.navbar-brand {
+  font-family: var(--primary-font);
+  font-size: 40px;
+  margin-right: auto;
+  margin-left: auto;
+}*/
+
+#header {
+  background: url(img/img1.webp) top/cover no-repeat;
+}
+
+.header-text {
+  padding-top: 104px;
+  font-family: var(--fourth-font);
+  font-size: 40px;
+}
+
+.btn:not(.nav-btns button) {
+  background-color: #fff;
+  color: rgb(85, 85, 85);
+  padding: 10px 28px;
+  border-radius: 5px;
+  border: 1px solid rgb(85, 85, 85);
+}
+.btn:not(.nav-btns button):hover {
+  background-color: var(--secondary-color);
+  transition: 0.7s;
+  color: #fff;
+  border-color: var(--pink);
+}
+
+/*COLLECTION SECTION*/
+.collection-text {
+  font-family: var(--fourth-font);
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.collection-text-detail {
+  font-family: var(--fourth-font);
+}
+
+.carousel-item img {
+  height: 85vw;
+}
+
+footer {
+  background-color: var(--fourth-color);
+}
+
+footer p {
+  color: var(--secondary-color);
+}
+
+.footer-links {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+.text {
+  font-family: var(--tertiary-font);
+  color: var(--secondary-color);
+}
