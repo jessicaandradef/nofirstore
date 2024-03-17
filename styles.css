@@ -10,6 +10,7 @@
   --secondary-font: "Poppins", sans-serif;
   --tertiary-font: "Nunito Sans", sans-serif;
   --fourth-font: "Kaisei Tokumin", serif;
+  --fifth-font: "Cormorant Garamond", serif;
 }
 
 body {
@@ -18,7 +19,7 @@ body {
 }
 
 .nav-title {
-  font-family: var(--primary-font);
+  font-family: var(--fifth-font);
   font-size: 35px;
 }
 
