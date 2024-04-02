@@ -13,6 +13,11 @@
   --fifth-font: "Cormorant Garamond", serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 body {
   font-family: var(--tertiary-font);
   background-color: var(--primary-color);
@@ -34,18 +39,19 @@ body {
 .nav-item {
   border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
 }
-/*.navbar-brand {
-  font-family: var(--primary-font);
-  font-size: 40px;
-  margin-right: auto;
-  margin-left: auto;
-}*/
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+ 
 
-#header {
+#section_01 {
   background: url(img/img1.webp) top/cover no-repeat;
 }
 
-.header-text {
+.section-text {
   padding-top: 104px;
   font-family: var(--fourth-font);
   font-size: 40px;
@@ -96,4 +102,17 @@ footer p {
 .text {
   font-family: var(--tertiary-font);
   color: var(--secondary-color);
+}
+
+.aboutSection-title{
+  font-family: var(--fifth-font);
+}
+
+.aboutSection-text{
+  font-family: var(--tertiary-font);
+}
+
+.links{
+  text-decoration: none;
+  color: var(--tertiary-color);
 }
