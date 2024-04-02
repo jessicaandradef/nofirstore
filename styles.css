@@ -17,7 +17,6 @@ html {
   scroll-behavior: smooth;
 }
 
-
 body {
   font-family: var(--tertiary-font);
   background-color: var(--primary-color);
@@ -42,10 +41,9 @@ body {
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
-    outline: none;
-    box-shadow: none;
+  outline: none;
+  box-shadow: none;
 }
- 
 
 #section_01 {
   background: url(img/img1.webp) top/cover no-repeat;
@@ -104,15 +102,47 @@ footer p {
   color: var(--secondary-color);
 }
 
-.aboutSection-title{
+.aboutSection-title {
   font-family: var(--fifth-font);
 }
 
-.aboutSection-text{
+.aboutSection-text {
   font-family: var(--tertiary-font);
 }
 
-.links{
+.links {
   text-decoration: none;
-  color: var(--tertiary-color);
+  color: var(--secondary-color);
+  position: relative;
+  font-style: italic;
+  font-size: 15px;
+}
+
+.links:after {
+  content: "";
+  position: absolute;
+  background-color: var(--fourth-color);
+  height: 1px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+}
+
+.links:hover:after {
+  width: 100%;
+}
+
+/*img section*/
+
+.card-img {
+  overflow: hidden;
+}
+
+.card-img img {
+  transition: all 1.3s ease;
+}
+
+.card-img:hover img {
+  transform: scale(1.2);
 }
