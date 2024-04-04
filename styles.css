@@ -84,6 +84,11 @@ body {
   height: 85vw;
 }
 
+.card-text {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
 footer {
   background-color: var(--fourth-color);
 }
@@ -103,7 +108,14 @@ footer p {
 }
 
 .aboutSection-title {
+  font-family: var(--tertiary-font);
+  text-transform: uppercase;
+  font-family: 18px;
+}
+
+.aboutSection-name {
   font-family: var(--fifth-font);
+  font-size: 65px;
 }
 
 .aboutSection-text {
@@ -147,26 +159,36 @@ footer p {
   transform: scale(1.2);
 }
 
+.card-body:hover a {
+  color: var(--fourth-color);
+}
+
+/*accordion*/
+.accordion {
+  --bs-accordion-btn-bg: var(--primary-color);
+  --bs-accordion-active-bg: var(--fourth-color);
+  --bs-accordion-active-color: var(--primary-color);
+  --bs-accordion-btn-focus-box-shadow: none;
+}
+
+.detail-name {
+  font-family: var(--primary-font);
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 700;
+}
+
 /*FORM SECTION*/
 
 .first_col {
   background-color: white;
   height: 550px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  position: relative;
-  width: 550px;
-  left: 155px;
-  top: 171px;
-  border-radius: 20px;
-}
-
-.img-fluid {
   border-radius: 20px;
 }
 
 .row-last {
   width: 60% !important;
-  position: relative !important;
   left: 350px;
   top: 50px;
   height: 200px;
@@ -178,10 +200,6 @@ footer p {
 .btn-primary {
   background-color: #c1b688;
   border: #c1b688;
-}
-
-.btn-primary:hover {
-  background-color: black !important;
 }
 
 .form-control {
