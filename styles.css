@@ -188,6 +188,11 @@ footer p {
 
 /*FORM SECTION*/
 
+.form-name {
+  font-family: var(--fourth-font);
+  font-size: 30px;
+}
+
 .first_col {
   background-color: white;
   height: 550px;
