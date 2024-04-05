@@ -1,4 +1,0 @@
-
-Font: Nunito Sans , Poppins, Century, Amalia ; ITALIANA (??)
-Color: HEX #000000 ; HEX #F5F3EB ; 
-
